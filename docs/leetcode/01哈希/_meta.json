@@ -1,0 +1,6 @@
+[
+  "index",
+  { "type": "file", "name": "01两数之和", "label": "两数之和" },
+  { "type": "file", "name": "02字母异位词分组", "label": "字母异位词分组" },
+  { "type": "file", "name": "03最长连续序列", "label": "最长连续序列" }
+]
