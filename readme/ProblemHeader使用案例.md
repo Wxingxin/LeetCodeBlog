@@ -1,3 +1,4 @@
+```mdx
 import Problem from "./main/o1.md";
 import JsPlayground from "../../components/js-playground/index";
 import ProblemHeader from "../../components/ProblemHeader";
@@ -15,3 +16,4 @@ import { twoSumProblem } from "./code/two-sum.problem";
 <Problem />
 
 <JsPlayground problem={twoSumProblem} height={300} />
+```

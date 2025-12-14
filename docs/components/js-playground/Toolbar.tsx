@@ -1,3 +1,4 @@
+// docs/components/js-playground/Toolbar.tsx
 import React from "react";
 import type { RunResult, Problem } from "./types";
 
@@ -5,8 +6,12 @@ type Props = {
   problem: Problem;
   result: RunResult;
   onRun: () => void;
+
   fontSize: number;
   onFontSizeChange: (next: number) => void;
+
+  // ✅ 新增：重置按钮点击回调（清空本地保存 + 恢复默认代码）
+  onResetCode: () => void;
 };
 
 const MIN_FS = 12;
@@ -18,6 +23,7 @@ export function Toolbar({
   onRun,
   fontSize,
   onFontSizeChange,
+  onResetCode, // ✅ 新增
 }: Props) {
   return (
     <div
@@ -34,6 +40,15 @@ export function Toolbar({
         style={{ padding: "6px 10px", borderRadius: 6, cursor: "pointer" }}
       >
         ▶ 运行
+      </button>
+
+      {/* ✅ 新增：重置代码按钮 */}
+      <button
+        onClick={onResetCode}
+        style={{ padding: "6px 10px", borderRadius: 6, cursor: "pointer" }}
+        title="清空本地保存并恢复默认代码"
+      >
+        ↺ 重置代码
       </button>
 
       {result.status === "done" ? (
