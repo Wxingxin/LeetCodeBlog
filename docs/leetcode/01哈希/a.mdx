@@ -1,0 +1,16 @@
+import JsPlayground from '../../components/JsPlayground.tsx';
+
+# 两数之和（练习区）
+
+<JsPlayground
+  initialCode={`function twoSum(nums, target) {
+  const m = new Map();
+  for (let i=0; i<nums.length; i++) {
+    const need = target - nums[i];
+    if (m.has(need)) return [m.get(need), i];
+    m.set(nums[i], i);
+  }
+  return [];
+}
+console.log(twoSum([2,7,11,15], 9));`}
+/>

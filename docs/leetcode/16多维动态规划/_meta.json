@@ -1,0 +1,7 @@
+[
+  { "type": "file", "name": "01不同路径", "label": "不同路径" },
+  { "type": "file", "name": "02最小路径和", "label": "最小路径和" },
+  { "type": "file", "name": "03最长回文子串", "label": "最长回文子串" },
+  { "type": "file", "name": "04最长公共子序列", "label": "最长公共子序列" },
+  { "type": "file", "name": "05编辑距离", "label": "编辑距离" }
+]

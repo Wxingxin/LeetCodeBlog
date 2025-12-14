@@ -1,0 +1,11 @@
+[
+  {
+    "type": "file",
+    "name": "01只出现一次的数字",
+    "label": "只出现一次的数字"
+  },
+  { "type": "file", "name": "02多数元素", "label": "多数元素" },
+  { "type": "file", "name": "03颜色分类", "label": "颜色分类" },
+  { "type": "file", "name": "04下一个排列", "label": "下一个排列" },
+  { "type": "file", "name": "05寻找重复数", "label": "寻找重复数" }
+]

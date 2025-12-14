@@ -1,4 +1,10 @@
 [
-  { "type": "dir", "name": "01哈希", "label": "哈希" },
-  { "type": "dir", "name": "02双指针", "label": "双指针" }
+     {"type": "file", "name": "01全排列", "label": "全排列"},
+     {"type": "file", "name": "02子集", "label": "子集"},
+     {"type": "file", "name": "03电话号码的字母组合", "label": "电话号码的字母组合"},
+     {"type": "file", "name": "04组合总和", "label": "组合总和"},
+     {"type": "file", "name": "05括号生成", "label": "括号生成"},
+     {"type": "file", "name": "06单词搜索", "label": "单词搜索"},
+     {"type": "file", "name": "07分割回文串", "label": "分割回文串"},
+     {"type": "file", "name": "08N皇后", "label": "N皇后"}
 ]

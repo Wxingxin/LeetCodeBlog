@@ -1,0 +1,7 @@
+[
+  { "type": "file", "name": "01有效的括号", "label": "01有效的括号" },
+  { "type": "file", "name": "02最小栈", "label": "02最小栈" },
+  { "type": "file", "name": "03字符串解码", "label": "03字符串解码" },
+  { "type": "file", "name": "04每日温度", "label": "04每日温度" },
+  { "type": "file", "name": "05柱状图中最大的矩形", "label": "05柱状图中最大的矩形" }
+]

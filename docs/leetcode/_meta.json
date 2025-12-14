@@ -1,5 +1,115 @@
 [
-  { "type": "dir", "name": "01哈希", "label": "哈希" },
-  { "type": "dir", "name": "02双指针", "label": "双指针" },
-  { "type": "dir", "name": "03滑动窗口", "label": "滑动窗口" }
+  {
+    "type": "dir",
+    "name": "01哈希",
+    "label": "哈希",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "02双指针",
+    "label": "双指针",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "03滑动窗口",
+    "label": "滑动窗口",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "04子串",
+    "label": "子串",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "05普通数组",
+    "label": "普通数组",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "06矩阵",
+    "label": "矩阵",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "07链表",
+    "label": "链表",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "08二叉树",
+    "label": "二叉树",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "09图论",
+    "label": "图论",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "10回溯",
+    "label": "回溯",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "11二分查找",
+    "label": "二分查找",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "12栈",
+    "label": "栈",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "13堆",
+    "label": "堆",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "14贪心算法",
+    "label": "贪心算法",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "15动态规划",
+    "label": "动态规划",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "16多维动态规划",
+    "label": "多维动态规划",
+    "collapsible": true,
+    "collapsed": true
+  },
+  { "type": "file", "name": "17技巧.md", "label": "技巧" }
 ]
