@@ -1,6 +1,16 @@
 [
-  { "type": "file", "name": "01移动零", "label": "移动零" },
-  { "type": "file", "name": "02盛最多水的容器", "label": "盛最多水的容器" },
-  { "type": "file", "name": "03三数之和", "label": "三数之和" },
-  { "type": "file", "name": "04接雨水", "label": "接雨水" }
+  { "type": "file", "name": "01相交链表", "label": "相交链表" },
+  { "type": "file", "name": "02反转链表", "label": "反转链表" },
+  { "type": "file", "name": "03回文链表", "label": "回文链表" },
+  { "type": "file", "name": "04环形链表", "label": "环形链表" },
+  { "type": "file", "name": "05环形链表II", "label": "环形链表II" },
+  { "type": "file", "name": "06合并两个有序链表", "label": "合并两个有序链表" },
+  { "type": "file", "name": "07两数相加", "label": "两数相加" },
+  { "type": "file", "name": "08删除链表的倒数第 N 个结点", "label": "删除链表的倒数第 N 个结点" },
+  { "type": "file", "name": "09两两交换链表中的节点", "label": "两两交换链表中的节点" },
+  { "type": "file", "name": "10K个一组翻转链表", "label": "K个一组翻转链表" },
+  { "type": "file", "name": "11随机链表的复制", "label": "随机链表的复制" },
+  { "type": "file", "name": "12排序链表", "label": "排序链表" },
+  { "type": "file", "name": "13合并K个升序链表", "label": "合并K个升序链表" },
+  { "type": "file", "name": "14LRU 缓存", "label": "LRU 缓存" }
 ]

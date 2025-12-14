@@ -1,4 +1,5 @@
 [
   { "type": "dir", "name": "01哈希", "label": "哈希" },
-  { "type": "dir", "name": "02双指针", "label": "双指针" }
+  { "type": "dir", "name": "02双指针", "label": "双指针" },
+  { "type": "dir", "name": "03滑动窗口", "label": "滑动窗口" }
 ]

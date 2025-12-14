@@ -1,6 +1,4 @@
 [
-  { "type": "file", "name": "01移动零", "label": "移动零" },
-  { "type": "file", "name": "02盛最多水的容器", "label": "盛最多水的容器" },
-  { "type": "file", "name": "03三数之和", "label": "三数之和" },
-  { "type": "file", "name": "04接雨水", "label": "接雨水" }
+  { "type": "file", "name": "01无重复字符的最长子串", "label": "无重复字符的最长子串" },
+  { "type": "file", "name": "02找到字符串中所有字母异位词", "label": "找到字符串中所有字母异位词" }
 ]
