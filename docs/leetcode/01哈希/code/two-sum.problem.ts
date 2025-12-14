@@ -1,4 +1,4 @@
-import type { Problem } from "../../components/JsPlayground"
+import type { Problem } from "../../../components/js-playground";
 
 export const twoSumProblem: Problem = {
   id: "two-sum",

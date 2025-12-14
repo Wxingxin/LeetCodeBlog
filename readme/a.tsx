@@ -163,18 +163,37 @@ export default function JsPlayground({ problem, height = 260 }: Props) {
 ${code}
     // ===== 用户代码结束 =====
 
-    const fn =
-      (typeof window[entry] === "function" ? window[entry] : null) ||
-      (typeof globalThis[entry] === "function" ? globalThis[entry] : null);
+    // 先尝试从“当前作用域”里拿到用户实现（因为用户代码在 IIFE 内）
+let localFn = null;
+try {
+  localFn = eval(entry); // 比如 entry="twoSum"，会得到 function twoSum
+} catch (e) {
+  localFn = null;
+}
 
-    if (!fn) {
-      send("test-result", {
-        passed: 0,
-        total: tests.length,
-        details: tests.map(t => ({ name: t.name, ok: false, error: "未找到函数 " + entry, hidden: !!t.hidden }))
-      });
-      return;
-    }
+// 如果拿到了，把它挂到 globalThis，保证后续可访问
+if (typeof localFn === "function") {
+  globalThis[entry] = localFn;
+}
+
+const fn =
+  (typeof globalThis[entry] === "function" ? globalThis[entry] : null) ||
+  (typeof window[entry] === "function" ? window[entry] : null);
+
+if (!fn) {
+  send("test-result", {
+    passed: 0,
+    total: tests.length,
+    details: tests.map((t) => ({
+      name: t.name,
+      ok: false,
+      error: "未找到函数 " + entry,
+      hidden: !!t.hidden,
+    })),
+  });
+  return;
+}
+
 
     const details = [];
     let passed = 0;
