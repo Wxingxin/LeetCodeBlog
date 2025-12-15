@@ -1,0 +1,49 @@
+# Stack
+
+```js
+class Stack {
+  constructor() {
+    this._data = [];
+  }
+
+  // 入栈
+  push(x) {
+    this._data.push(x);
+    return this.size();
+  }
+
+  // 出栈：返回栈顶元素
+  pop() {
+    return this._data.pop();
+  }
+
+  // 查看栈顶但不移除
+  peek() {
+    return this._data.length ? this._data[this._data.length - 1] : undefined;
+  }
+
+  // 栈大小
+  size() {
+    return this._data.length;
+  }
+
+  // 是否为空
+  isEmpty() {
+    return this._data.length === 0;
+  }
+
+  // 清空
+  clear() {
+    this._data.length = 0;
+  }
+}
+```
+```js
+// demo
+const s = new Stack();
+s.push(1); s.push(2);
+console.log(s.peek()); // 2
+console.log(s.pop());  // 2
+console.log(s.pop());  // 1
+console.log(s.isEmpty()); // true
+```

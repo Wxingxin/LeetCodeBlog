@@ -1,3 +1,65 @@
 [
-    "index"
+  {
+    "type": "dir",
+    "name": "01Array",
+    "label": "Array",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "02Stack",
+    "label": "Stack",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "03Queue",
+    "label": "Queue",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "04LinkedList",
+    "label": "LinkedList",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "05Gather",
+    "label": "05Gather",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "06Dictionary",
+    "label": "06Dictionary",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "07HashTable",
+    "label": "07HashTable",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "08Tree",
+    "label": "08Tree",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "09Graphtheory",
+    "label": "09Graphtheory",
+    "collapsible": true,
+    "collapsed": true
+  }
 ]
