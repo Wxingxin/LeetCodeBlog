@@ -1,6 +1,6 @@
 [
-  { "type": "file", "name": "01移动零", "label": "移动零" },
-  { "type": "file", "name": "02盛最多水的容器", "label": "盛最多水的容器" },
-  { "type": "file", "name": "03三数之和", "label": "三数之和" },
-  { "type": "file", "name": "04实现 Trie (前缀树)", "label": "接雨水" }
+  { "type": "file", "name": "01岛屿数量", "label": "岛屿数量" },
+  { "type": "file", "name": "02腐烂的橘子", "label": "腐烂的橘子" },
+  { "type": "file", "name": "03课程表", "label": "课程表" },
+  { "type": "file", "name": "04实现 Trie (前缀树)", "label": "实现 Trie (前缀树)" }
 ]

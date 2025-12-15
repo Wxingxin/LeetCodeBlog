@@ -1,5 +1,5 @@
 [
-  { "type": "file", "name": "01最大子数组和", "label": "01最大子数组和" },
+  { "type": "file", "name": "01最大子数组和", "label": "最大子数组和" },
   { "type": "file", "name": "02合并区间", "label": "合并区间" },
   { "type": "file", "name": "03轮转数组", "label": "轮转数组" },
   { "type": "file", "name": "04除自身以外数组的乘积", "label": "除自身以外数组的乘积" },

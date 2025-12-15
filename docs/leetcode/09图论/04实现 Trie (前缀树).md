@@ -9,12 +9,16 @@ boolean search(String word) 如果字符串 word 在前缀树中，返回 true�
 boolean startsWith(String prefix) 如果之前已经插入的字符串 word 的前缀之一为 prefix ，返回 true ；否则，返回 false 。
  
 
-示例：
+## 示例：
 
 输入
+
 `["Trie", "insert", "search", "search", "startsWith", "insert", "search"]`
+
 `[[], ["apple"], ["apple"], ["app"], ["app"], ["app"], ["app"]]`
+
 输出
+
 `[null, null, true, false, true, null, true]`
 
 解释

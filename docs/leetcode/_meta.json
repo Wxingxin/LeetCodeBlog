@@ -111,5 +111,11 @@
     "collapsible": true,
     "collapsed": true
   },
-  { "type": "file", "name": "17技巧.md", "label": "技巧" }
+  {
+    "type": "dir",
+    "name": "17技巧",
+    "label": "技巧",
+    "collapsible": true,
+    "collapsed": true
+  }
 ]

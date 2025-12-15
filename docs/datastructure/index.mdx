@@ -1,0 +1,16 @@
+import Quiz from '../components/quiz/quiz'
+
+# 只出现一次的数字
+
+<Quiz
+  title="选择题"
+  question="数组中只有一个数字出现一次，其余都出现两次，应该用什么思路？"
+  options={[
+    { id: "A", text: "排序后遍历比较" },
+    { id: "B", text: "异或 XOR 抵消" },
+    { id: "C", text: "双指针" },
+    { id: "D", text: "单调栈" },
+  ]}
+  answerId="B"
+  explanation="利用 XOR：a^a=0, 0^b=b。把所有元素异或一遍，成对的会抵消，剩下的就是只出现一次的那个。"
+/>
