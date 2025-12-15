@@ -6,9 +6,9 @@ import type { Problem } from "../../../components/js-playground";
 
 // 导出 twoSum 题目的完整配置
 // 每一道 LeetCode 题在系统中都对应一个 Problem 对象
-export const twoSumProblem: Problem = {
+export const o101: Problem = {
   // 题目唯一标识，用于路由、查找、判题等
-  id: "two-sum",
+  id: "o101",
 
   // 题目标题，用于页面展示
   title: "两数之和",
