@@ -1,12 +1,12 @@
 [
-  { "type": "file", "name": "01爬楼梯", "label": "01爬楼梯" },
-  { "type": "file", "name": "02杨辉三角", "label": "02杨辉三角" },
-  { "type": "file", "name": "03打家劫舍", "label": "03打家劫舍" },
-  { "type": "file", "name": "04完全平方数", "label": "04完全平方数" },
-  { "type": "file", "name": "05零钱兑换", "label": "05零钱兑换" },
-  { "type": "file", "name": "06单词拆分", "label": "06单词拆分" },
-  { "type": "file", "name": "07最长递增子序列", "label": "07最长递增子序列" },
-  { "type": "file", "name": "08乘积最大子数组", "label": "08乘积最大子数组" },
-  { "type": "file", "name": "09分割等和子集", "label": "09分割等和子集" },
-  { "type": "file", "name": "10最长有效括号", "label": "10最长有效括号" }
+  { "type": "file", "name": "01爬楼梯", "label": "爬楼梯" },
+  { "type": "file", "name": "02杨辉三角", "label": "杨辉三角" },
+  { "type": "file", "name": "03打家劫舍", "label": "打家劫舍" },
+  { "type": "file", "name": "04完全平方数", "label": "完全平方数" },
+  { "type": "file", "name": "05零钱兑换", "label": "零钱兑换" },
+  { "type": "file", "name": "06单词拆分", "label": "单词拆分" },
+  { "type": "file", "name": "07最长递增子序列", "label": "最长递增子序列" },
+  { "type": "file", "name": "08乘积最大子数组", "label": "乘积最大子数组" },
+  { "type": "file", "name": "09分割等和子集", "label": "分割等和子集" },
+  { "type": "file", "name": "10最长有效括号", "label": "最长有效括号" }
 ]
