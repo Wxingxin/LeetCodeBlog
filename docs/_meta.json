@@ -1,6 +1,6 @@
 [
   { "text": "Guide", "link": "/guide/", "activeMatch": "/guide/" },
   {"text": "Data Structure", "link": "/datastructure/", "activeMatch": "/datastructure/"},
-  { "text": "LeetCode", "link": "/leetcode/", "activeMatch": "/leetcode/" },
+  { "text": "LeetCode 100", "link": "/leetcode/", "activeMatch": "/leetcode/" },
   { "text": "Hello", "link": "/hello" }
 ]
