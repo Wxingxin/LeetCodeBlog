@@ -1,0 +1,16 @@
+[
+  { "type": "file", "name": "./a1-赎金信.md", "label": "赎金信" },
+  { "type": "file", "name": "./a2-同构字符串.md", "label": "同构字符串" },
+  { "type": "file", "name": "./a3-单词规律.md", "label": "单词规律" },
+  {
+    "type": "file",
+    "name": "./a4-有效的字母异位词.md",
+    "label": "有效的字母异位词"
+  },
+  { "type": "file", "name": "./a5-快乐数.md", "label": "快乐数" },
+  {
+    "type": "file",
+    "name": "./a6-存在重复元素 II.md",
+    "label": "存在重复元素 II"
+  }
+]

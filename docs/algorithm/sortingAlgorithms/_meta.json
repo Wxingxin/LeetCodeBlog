@@ -1,0 +1,16 @@
+[
+  { "type": "file", "name": "bubbleSort", "label": "Bubble SortO(n^2)" },
+  { "type": "file", "name": "selectionSort", "label": "Selection SortO(n^2)" },
+  { "type": "file", "name": "insertionSort", "label": "Insertion SortO(n^2)" },
+  { "type": "file", "name": "shellSort", "label": "shell Sort(O(n log n)" },
+  { "type": "file", "name": "mergeSort", "label": "Merge Sort(O(n log n)" },
+  { "type": "file", "name": "quickSort", "label": "Quick Sort(O(n log n)" },
+  { "type": "file", "name": "heapSort.md", "label": "Heap Sort(O(n log n)" },
+  {
+    "type": "file",
+    "name": "countingSort",
+    "label": "Counting Sort(O(n)orO(n+k)"
+  },
+  { "type": "file", "name": "bucketSort", "label": "Bucket Sort(O(n)orO(n+k)" },
+  { "type": "file", "name": "radixSort", "label": "Radix Sort(O(n)orO(n+k)" }
+]

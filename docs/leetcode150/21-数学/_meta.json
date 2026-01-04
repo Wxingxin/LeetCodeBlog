@@ -1,0 +1,32 @@
+[
+  {
+    "type": "file",
+    "name": "./a1-回文数.md",
+    "label": "回文数"
+  },
+  {
+    "type": "file",
+    "name": "./a2-加一.md",
+    "label": "加一"
+  },
+  {
+    "type": "file",
+    "name": "./a3-阶乘后的零.md",
+    "label": "阶乘后的零"
+  },
+  {
+    "type": "file",
+    "name": "./a4-x 的平方根.md",
+    "label": "x 的平方根"
+  },
+  {
+    "type": "file",
+    "name": "./a5- Pow(x, n).md",
+    "label": "Pow(x, n)"
+  },
+  {
+    "type": "file",
+    "name": "./a6-直线上最多的点数.md",
+    "label": "直线上最多的点数"
+  }
+]

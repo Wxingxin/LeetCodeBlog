@@ -1,29 +1,34 @@
 [
   {
+    "type": "file",
+    "name": "index",
+    "label": "数据结构概述"
+  },
+  {
     "type": "dir",
     "name": "01Array",
-    "label": "Array",
+    "label": "Array(Linked)",
     "collapsible": true,
     "collapsed": true
   },
   {
     "type": "dir",
     "name": "02Stack",
-    "label": "Stack",
+    "label": "Stack(Linked)",
     "collapsible": true,
     "collapsed": true
   },
   {
     "type": "dir",
     "name": "03Queue",
-    "label": "Queue",
+    "label": "Queue(Linked)",
     "collapsible": true,
     "collapsed": true
   },
   {
     "type": "dir",
     "name": "04LinkedList",
-    "label": "LinkedList",
+    "label": "LinkedList(Linked)",
     "collapsible": true,
     "collapsed": true
   },

@@ -1,0 +1,19 @@
+[
+  { "type": "file", "name": "time", "label": "时间复杂度" },
+  { "type": "file", "name": "space", "label": "空间复杂度" },
+  {
+    "type": "dir",
+    "name": "sortingAlgorithms",
+    "label": "排序算法"
+  },
+  {
+    "type": "dir",
+    "name": "searchAlgorithms",
+    "label": "搜索算法"
+  },
+  {
+    "type": "dir",
+    "name": "randomizedAlgorithm",
+    "label": "随机化算法"
+  }
+]

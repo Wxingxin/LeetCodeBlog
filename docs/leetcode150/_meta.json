@@ -1,0 +1,156 @@
+[
+  {
+    "type": "dir",
+    "name": "01-数组字符串",
+    "label": "数组字符串",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "02-双指针",
+    "label": "双指针",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "03-滑动窗口",
+    "label": "滑动窗口",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "04-矩阵",
+    "label": "矩阵",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "05-哈希表",
+    "label": "哈希表",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "06-区间",
+    "label": "区间",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "07-栈",
+    "label": "栈",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "08-链表",
+    "label": "链表",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "09-二叉树",
+    "label": "二叉树",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "10-二叉树层次遍历",
+    "label": "二叉树层次遍历",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "11-二叉搜索树",
+    "label": "二叉搜索树",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "12-图",
+    "label": "图",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "13-图的广度优先搜索",
+    "label": "图的广度优先搜索",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "14-字典树",
+    "label": "字典树",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "15-回潮",
+    "label": "回潮",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "16-分治",
+    "label": "分治",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "17-Kadane 算法",
+    "label": "Kadane 算法",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "18-二分查找",
+    "label": "二分查找",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "19-堆",
+    "label": "堆",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "20-位运算",
+    "label": "位运算",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "21-数学",
+    "label": "数学",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "23-多维动态规划",
+    "label": "多维动态规划",
+    "collapsible": true,
+    "collapsed": true
+  }
+]

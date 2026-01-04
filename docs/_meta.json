@@ -1,6 +1,19 @@
 [
-  { "text": "Guide", "link": "/guide/", "activeMatch": "/guide/" },
-  {"text": "Data Structure", "link": "/datastructure/", "activeMatch": "/datastructure/"},
+  {
+    "text": "Data Structure",
+    "link": "/datastructure/",
+    "activeMatch": "/datastructure/"
+  },
+  {
+    "text": "Data Structure Pro",
+    "link": "/datastructurePro/",
+    "activeMatch": "/datastructurePro/"
+  },
+  { "text": "Dalgorithm", "link": "/algorithm/", "activeMatch": "/algorithm/" },
   { "text": "LeetCode 100", "link": "/leetcode/", "activeMatch": "/leetcode/" },
-  { "text": "Hello", "link": "/hello" }
+  {
+    "text": "LeetCode 150",
+    "link": "/leetcode150/",
+    "activeMatch": "/leetcode150/"
+  }
 ]
