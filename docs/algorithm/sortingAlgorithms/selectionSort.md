@@ -74,6 +74,7 @@ function selectionSort(arr) {
 
     // 在未排序区间找最小值
     for (let j = i + 1; j < n; j++) {
+      //如果当前的值比之前的arr[minIndex]还小，将当前值的数组下标赋值给minIndex
       if (arr[j] < arr[minIndex]) {
         minIndex = j;
       }

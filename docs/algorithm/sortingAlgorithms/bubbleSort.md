@@ -50,8 +50,13 @@
 function bubbleSort(arr) {
   const n = arr.length;
 
+  //找到 [i-（n-1）]中的 最大 或 最小 的元素将他移到数组的前面或后面
   for (let i = 0; i < n - 1; i++) {
+
+    //规定一个区间[j, j+1]， 将区间不停的从左 --> 右，将区间的元素进行比较
     for (let j = 0; j < n - 1 - i; j++) {
+
+      //判断[j, j+1]的大小，将他们交换位置
       if (arr[j] > arr[j + 1]) {
         // 交换相邻元素
         [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];
