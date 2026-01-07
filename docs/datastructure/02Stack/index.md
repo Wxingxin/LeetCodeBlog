@@ -20,9 +20,9 @@ LIFO（lastinfirstout）表示就是后进入的元素，第一个弹出栈空�
 
 注意：不允许改变邮件的次序，比如从最小开始，或者处于最紧急的邮件，否则就不再是栈结构了.而是队列或者优先级队列结构.
 
-# 一、栈（Stack）——后进先出 LIFO
+## 一、栈（Stack）——后进先出 LIFO
 
-## 1️⃣ 核心思想
+ 1️⃣ 核心思想
 
 > **Last In, First Out（后进先出）**
 
@@ -37,7 +37,34 @@ LIFO（lastinfirstout）表示就是后进入的元素，第一个弹出栈空�
 出栈 → 3
 ```
 
----
+## 方法大全
+
+### push
+
+将元素压入stack的栈顶
+
+### pop
+
+将stack的栈顶的元素弹出， 如果没有返回null
+
+
+### peek
+
+返回stack中栈顶的元素
+
+### isEmpty
+
+判断stack中是否为空
+
+如果没有元素返回 true
+
+如果有元素返回 false
+
+### size
+
+返回stack中的元素长度
+
+### toString
 
 ## 2️⃣ JS 实现（用 Array）
 

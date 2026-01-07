@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 
 export type Difficulty = "easy" | "medium" | "hard";
 
@@ -16,6 +16,10 @@ const DIFF_TEXT: Record<Difficulty, string> = {
   hard: "困难",
 };
 
+const MIN_CONTENT_SIZE = 12;
+const MAX_CONTENT_SIZE = 25;
+const CONTENT_SIZE_STEP = 1;
+
 export default function ProblemHeader({
   title,
   difficulty,
@@ -23,9 +27,20 @@ export default function ProblemHeader({
   meta,
   children,
 }: Props) {
+  const [contentSize, setContentSize] = React.useState(20);
+
+  const handleSizeChange = (value: number) => {
+    const next = Math.min(MAX_CONTENT_SIZE, Math.max(MIN_CONTENT_SIZE, value));
+    setContentSize(next);
+  };
+
+  const contentStyle = {
+    "--ph-content-size": `${contentSize}px`,
+  } as React.CSSProperties;
+
   // 用 data-difficulty 让 CSS 精确控制配色（含暗色）
   return (
-    <section className="problemHeader" data-difficulty={difficulty}>
+    <section className="problemHeader" data-difficulty={difficulty} style={contentStyle}>
       <div className="problemHeader__top">
         <div className="problemHeader__titleRow">
           <h1 className="problemHeader__title">{title}</h1>
@@ -45,7 +60,43 @@ export default function ProblemHeader({
           )}
         </div>
 
-        {meta ? <div className="problemHeader__meta">{meta}</div> : null}
+        <div className="problemHeader__controls">
+          {meta ? <div className="problemHeader__meta">{meta}</div> : null}
+
+          <div className="problemHeader__fontSize" role="group" aria-label="内容字号">
+            <button
+              type="button"
+              className="problemHeader__fontBtn"
+              onClick={() => handleSizeChange(contentSize - CONTENT_SIZE_STEP)}
+              disabled={contentSize <= MIN_CONTENT_SIZE}
+              aria-label="减小内容字号"
+            >
+              A-
+            </button>
+            <input
+              className="problemHeader__fontRange"
+              type="range"
+              min={MIN_CONTENT_SIZE}
+              max={MAX_CONTENT_SIZE}
+              step={CONTENT_SIZE_STEP}
+              value={contentSize}
+              onChange={(event) => handleSizeChange(Number(event.currentTarget.value))}
+              aria-label="调节内容字号"
+            />
+            <button
+              type="button"
+              className="problemHeader__fontBtn"
+              onClick={() => handleSizeChange(contentSize + CONTENT_SIZE_STEP)}
+              disabled={contentSize >= MAX_CONTENT_SIZE}
+              aria-label="增大内容字号"
+            >
+              A+
+            </button>
+            <span className="problemHeader__fontSizeValue" aria-hidden="true">
+              {contentSize}px
+            </span>
+          </div>
+        </div>
       </div>
 
       {children ? <div className="problemHeader__content">{children}</div> : null}
@@ -53,6 +104,7 @@ export default function ProblemHeader({
       {/* 组件内联样式：不依赖全局 CSS，也方便你后续抽到全局 */}
       <style>{`
         .problemHeader {
+          --ph-content-size: 20px;
           border: 1px solid var(--ph-border);
           background: var(--ph-bg);
           border-radius: 14px;
@@ -116,14 +168,63 @@ export default function ProblemHeader({
           opacity: 0.9;
         }
 
+        .problemHeader__controls {
+          display: flex;
+          gap: 8px;
+          align-items: center;
+          flex-wrap: wrap;
+          justify-content: flex-end;
+        }
+
         .problemHeader__meta {
           font-size: 12px;
           opacity: 0.8;
         }
 
+        .problemHeader__fontSize {
+          display: inline-flex;
+          align-items: center;
+          gap: 6px;
+          padding: 2px 6px;
+          border-radius: 999px;
+          border: 1px solid rgba(127,127,127,0.25);
+          background: rgba(127,127,127,0.06);
+          font-size: 12px;
+        }
+
+        .problemHeader__fontBtn {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          height: 20px;
+          padding: 0 6px;
+          border-radius: 6px;
+          border: 1px solid rgba(127,127,127,0.35);
+          background: transparent;
+          color: inherit;
+          font-size: 12px;
+          font-weight: 600;
+          cursor: pointer;
+        }
+
+        .problemHeader__fontBtn:disabled {
+          opacity: 0.45;
+          cursor: not-allowed;
+        }
+
+        .problemHeader__fontRange {
+          width: 90px;
+        }
+
+        .problemHeader__fontSizeValue {
+          min-width: 36px;
+          text-align: right;
+          font-variant-numeric: tabular-nums;
+        }
+
         .problemHeader__content {
           margin-top: 10px;
-          font-size: 13px;
+          font-size: var(--ph-content-size, 13px);
           opacity: 0.9;
           line-height: 1.6;
         }
